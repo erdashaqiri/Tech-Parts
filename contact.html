@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - TechParts</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="container nav-container">
+        <div class="nav-container">
+          <button class="theme-toggle" id="themeToggle">
+            <i class="fas fa-moon"></i>
+          </button>
+          <a href="index.html" class="logo">Tech<span>Parts</span></a>
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li class="dropdown">
+            <a href="#">Categories <i class="fas fa-chevron-down"></i></a>
+            <div class="dropdown-content">
+              <a href="categories/processors.html">Processors</a>
+              <a href="categories/graphics-cards.html">Graphics Cards</a>
+              <a href="categories/motherboards.html">Motherboards</a>
+              <a href="categories/ram.html">RAM</a>
+              <a href="categories/storage.html">Storage</a>
+              <a href="categories/cooling.html">Cooling</a>
+            </div>
+          </li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li>
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+      <div class="container contact-container">
+        <div class="contact-info">
+          <h2>Get In Touch</h2>
+          <p>
+            Have questions about our products or services? Our team is here to
+            help you with any inquiries you might have. Reach out to us through
+            any of the channels below or visit our store in Skopje.
+          </p>
+
+          <div class="contact-details">
+            <div>
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Bul. Partizanski Odredi 15, Centar, Skopje 1000</span>
+            </div>
+            <div>
+              <i class="fas fa-phone"></i>
+              <span>+389 70 123 456</span>
+            </div>
+            <div>
+              <i class="fas fa-envelope"></i>
+              <span>info@techparts.com</span>
+            </div>
+            <div>
+              <i class="fas fa-clock"></i>
+              <span>Monday - Saturday: 9:00 AM - 7:00 PM</span>
+            </div>
+          </div>
+
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <h3>Send Us a Message</h3>
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" />
+            </div>
+            <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+          </form>
+        </div>
+
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2964.798950688658!2d21.4253163154417!3d42.00346417921235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13541443605aa4ab%3A0x33a9cb6d68a5a3a1!2sPartizanski%20Odredi%2C%20Skopje%201000%2C%20North%20Macedonia!5e0!3m2!1sen!2sus!4v1620000000000!5m2!1sen!2sus"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-column">
+            <h3>TechParts</h3>
+            <p>
+              Your one-stop shop for all computer components and accessories. We
+              provide high-quality parts at competitive prices.
+            </p>
+          </div>
+          <div class="footer-column">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Categories</h3>
+            <ul>
+              <li><a href="categories/processors.html">Processors</a></li>
+              <li>
+                <a href="categories/graphics-cards.html">Graphics Cards</a>
+              </li>
+              <li><a href="categories/motherboards.html">Motherboards</a></li>
+              <li><a href="categories/ram.html">RAM</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Connect With Us</h3>
+            <div class="social-links">
+              <a href="https://www.facebook.com"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="https://x.com"><i class="fab fa-twitter"></i></a>
+              <a href="https://instagram.com"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+            <p>Email: info@techparts.com</p>
+            <p>Phone: +389 70 123 456</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 TechParts. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Form submission handling
+      document
+        .getElementById("contactForm")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+
+          // Get form values
+          const name = document.getElementById("name").value;
+          const email = document.getElementById("email").value;
+          const message = document.getElementById("message").value;
+
+          // Here you would typically send the data to a server
+          // For this example, we'll just show an alert
+          alert(
+            `Thank you, ${name}! Your message has been received. We'll contact you at ${email} soon.`
+          );
+
+          // Reset the form
+          this.reset();
+        });
+    </script>
+    <script src="js/theme.js"></script>
+  </body>
+</html>

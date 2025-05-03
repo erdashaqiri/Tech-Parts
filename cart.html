@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Cart</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container nav-container">
+        <div class="nav-container"><button class="theme-toggle" id="themeToggle">
+          <i class="fas fa-moon"></i>
+      </button>
+        <a href="index.html" class="logo">Tech<span>Parts</span></a></div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li class="dropdown">
+            <a href="#">Categories <i class="fas fa-chevron-down"></i></a>
+            <div class="dropdown-content">
+              <a href="categories/processors.html">Processors</a>
+              <a href="categories/graphics-cards.html">Graphics Cards</a>
+              <a href="categories/motherboards.html">Motherboards</a>
+              <a href="categories/ram.html">RAM</a>
+              <a href="categories/storage.html">Storage</a>
+              <a href="categories/cooling.html">Cooling</a>
+            </div>
+          </li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li>
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="cart-header">
+        <h1 class="cart-title">Your Shopping Cart</h1>
+        <a href="index.html" style="color: #4caf50; text-decoration: none">
+          <i class="fas fa-arrow-left"></i> Continue Shopping
+        </a>
+      </div>
+
+      <div class="cart-items" id="cart-items">
+        <!-- Cart items will be dynamically inserted here -->
+        <div class="empty-cart">
+          <i class="fas fa-shopping-cart"></i>
+          <p>Your cart is empty</p>
+        </div>
+      </div>
+
+    <script src="js/cart.js"></script>
+    <script src="js/theme.js"></script>
+  </body>
+</html>
