@@ -75,16 +75,18 @@
 }
 
 .remove-item {
-  background: none;
+  background-color: #e74c3c;
+  color: white;
   border: none;
-  color: #e74c3c;
+  padding: 8px 15px;
+  border-radius: 4px;
   cursor: pointer;
-  font-size: 16px;
-  padding: 5px;
+  font-size: 14px;
+  transition: background-color 0.2s ease;
 }
 
 .remove-item:hover {
-  color: #c0392b;
+  background-color: #c0392b;
 }
 
 .cart-summary {

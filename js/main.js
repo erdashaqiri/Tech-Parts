@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", function () {
     notification.className = "cart-notification";
     notification.innerHTML = `
           <span>${productName} added to cart!</span>
-          <a href="cart.html">View Cart</a>
+          <a href="../cart.html">View Cart</a>
       `;
     document.body.appendChild(notification);
 
